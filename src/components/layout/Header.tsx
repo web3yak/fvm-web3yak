@@ -52,6 +52,7 @@ export function Header(props: Props) {
       borderBottomWidth="small"
       borderBottomStyle="solid"
       borderBottomColor="white"
+      zIndex={9999} // Ensure the header itself is on top
     >
       <Flex flex={{ base: 2 }} justify={{ base: "center", md: "start" }}>
         <Logo onToggle={onToggle} isOpen={isOpen} />
@@ -263,9 +264,9 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/",
     children: [
       {
-        label: "ODude",
-        subLabel: "ODude.com",
-        href: "https://odude.com",
+        label: "Filecoin",
+        subLabel: "filecoin.io",
+        href: "https://filecoin.io/",
       },
       {
         label: "Web3Yak",
