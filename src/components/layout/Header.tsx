@@ -281,7 +281,7 @@ const NAV_ITEMS: Array<NavItem> = [
     ],
   },
   {
-    label: "Names",
+    label: "FVM Names",
     href: "/list",
   },
 ];
